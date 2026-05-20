@@ -22,7 +22,7 @@ Program to implement the Decision Tree Classifier Model for Predicting Employee 
 Developed by: Ragul D
 RegisterNumber: 212225230221 
 */
-```
+
 
 import pandas as pd
 data = pd.read_csv(r"C:\Users\acer\Downloads\Employee (1).csv")
@@ -43,9 +43,10 @@ from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 print(accuracy)
 
+
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 
-
+```
 ## Output:
 <img width="868" height="245" alt="Screenshot 2026-05-20 083235" src="https://github.com/user-attachments/assets/0c1f2bde-229d-4519-9668-2c1f2b6246d8" />
 
